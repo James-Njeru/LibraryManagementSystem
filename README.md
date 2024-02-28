@@ -1,9 +1,9 @@
 # Library Management Web Application
 
 ## Technologies used
-+Front-end: React JS
-*Back-end: Flask + Python
-+Db: MySQL
++ Front-end: React JS
+* Back-end: Flask + Python
++ Db: MySQL
 
 
 <img width="932" alt="m1" src="https://github.com/James-Njeru/LibraryManagementSystem/assets/56454626/8b032b94-ea27-496d-badb-91d611c49835">
@@ -13,3 +13,5 @@
 <img width="875" alt="b1" src="https://github.com/James-Njeru/LibraryManagementSystem/assets/56454626/888d6ea0-aa76-4fc2-a55b-8211eff5bbdd">
 
 <img width="935" alt="ib" src="https://github.com/James-Njeru/LibraryManagementSystem/assets/56454626/de0615f5-2960-4a50-84a4-cb90a1b7535c">
+
+<img width="942" alt="Screenshot 2024-02-27 220318" src="https://github.com/James-Njeru/LibraryManagementSystem/assets/56454626/42a7c5d5-7431-42f3-93cf-91255b1f40a0">
