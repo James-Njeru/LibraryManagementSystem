@@ -1,7 +1,7 @@
 # Library Management Web Application
 
 ## Technologies used
-+ Front-end: React JS
++ Front-end: React JS + Bootstrap
 * Back-end: Flask + Python
 + Db: MySQL
 
