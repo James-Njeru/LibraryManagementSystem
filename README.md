@@ -4,7 +4,7 @@
 + Front-end: React JS + Bootstrap
 * Back-end: Flask + Python
 + ORM: SQLAlchemy
-+ Db: MySQL
+- Db: MySQL
 
 
 <img width="932" alt="m1" src="https://github.com/James-Njeru/LibraryManagementSystem/assets/56454626/8b032b94-ea27-496d-badb-91d611c49835">
