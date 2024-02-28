@@ -3,7 +3,7 @@
 ## Technologies used
 + Front-end: React JS + Bootstrap
 * Back-end: Flask + Python
-* ORM: SQLAlchemy
++ ORM: SQLAlchemy
 + Db: MySQL
 
 
