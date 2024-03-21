@@ -6,6 +6,36 @@
 + ORM: SQLAlchemy
 - Db: MySQL
 
+## Database Schema
+1. Books:
+  - id (INT, PRIMARY KEY): Unique identifier for the book.
+  - title (VARCHAR(255)): Title of the book.
+  - author (VARCHAR(255)): Author of the book.
+  - isbn (VARCHAR(13), UNIQUE): International Standard Book Number.
+  - description (TEXT): Description of the book.
+  - publication_year (INT): Year the book was published.
+  - genre (VARCHAR(50)): Genre of the book.
+  - publisher (VARCHAR(255)): Publisher of the book.
+  - quantity (INT): Total number of copies available.
+  - available (INT): Number of copies currently available for borrowing.
+2. Members:
+  - id (INT, PRIMARY KEY): Unique identifier for the member.
+  - name (VARCHAR(255)): Full name of the member.
+  - contact_number (VARCHAR(20)): Phone number of the member.
+  - email (VARCHAR(255), UNIQUE): Email address of the member.
+  - address (TEXT): Address of the member.
+  - outstanding_debt (DECIMAL(10,2)): Current outstanding balance for book rentals.
+3. Transactions:
+  - id (INT, PRIMARY KEY): Unique identifier for the transaction.
+  - book_id (INT, FOREIGN KEY REFERENCES Books(id)): References the book involved in the transaction.
+  - member_id (INT, FOREIGN KEY REFERENCES Members(id)): References the member involved in the transaction.
+  - type (ENUM('issue', 'return')): Type of transaction (issue or return).
+  - date (DATE): Date of the transaction.
+  - rent_fee (DECIMAL(10,2)): Amount charged for the book rental (applicable only to issue transactions).
+### Database Schema
+- A Book can have many Transactions, but each Transaction belongs to one Book.
+- A Member can have many Transactions, but each Transaction belongs to one Member.
+
 
 <img width="932" alt="m1" src="https://github.com/James-Njeru/LibraryManagementSystem/assets/56454626/8b032b94-ea27-496d-badb-91d611c49835">
 
