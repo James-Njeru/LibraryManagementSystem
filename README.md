@@ -46,11 +46,12 @@ It is an application designed to manage library operations for librarians. It of
   - type (ENUM('issue', 'return')): Type of transaction (issue or return).
   - date (DATE): Date of the transaction.
   - rent_fee (DECIMAL(10,2)): Amount charged for the book rental (applicable only to issue transactions).
-### Database Schema
+### Models Relationships
 - A Book can have many Transactions, but each Transaction belongs to one Book.
 - A Member can have many Transactions, but each Transaction belongs to one Member.
 
 
+## System Screenshots
 <img width="932" alt="m1" src="https://github.com/James-Njeru/LibraryManagementSystem/assets/56454626/8b032b94-ea27-496d-badb-91d611c49835">
 
 <img width="200" alt="m2" src="https://github.com/James-Njeru/LibraryManagementSystem/assets/56454626/e33417ad-e327-4754-ae36-c66e913a4824">
