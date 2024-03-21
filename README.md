@@ -1,5 +1,19 @@
 # Library Management Web Application
 
+## System Overview
+It is an application designed to manage library operations for librarians. It offers functionalities to:
++ Maintain Library Resources:
+  - Librarians can create, update, delete (CRUD) information on Books (including stock levels).
+  - Manage Member information (CRUD).
++ Manage Book Circulation:
+  - Issue books to members.
+  - Process book returns from members.
++ Search for Resources:
+  - Search for Books by title and author.
++ Manage Fines:
+  - Charge rental fees upon book return.
+  - Track member outstanding debts and prevent borrowing if exceeding KES.500.
+
 ## Technologies used
 + Front-end: React JS + Bootstrap
 * Back-end: Flask + Python
